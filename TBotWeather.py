@@ -24,7 +24,7 @@ def send_weather(message):
 		print('----------------------------' + '\n')
 		answer = "City " + message.text + ": " + '\n'
 		answer += w.weather.detailed_status + '\n'
-		answer += "Temperature is ABOUT " + str( round(temperatura, 0) ) + degree_sign + '\n\n'
+		answer += "Temperature is " + str( round(temperatura, 0) ) + degree_sign + '\n\n'
 		if temperatura < 10:
 			answer += 'It is terribly cold. Hold on there!'+ '\n'
 			answer += 'Put on a hat !!!'
