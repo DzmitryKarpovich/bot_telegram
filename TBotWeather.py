@@ -33,7 +33,7 @@ def send_weather(message):
 		else:
 			answer += 'The heat is there, I envy.'
 	except:
-		answer = 'Are you kidding?!!' + '\n'
+		answer = 'Are you kidding?!!!!!!!' + '\n'
 		answer += 'There is no such place on the world map!'+ '\n'
 		answer += 'Initial input:'+ '\n'
 		answer += message.text+ '\n'
